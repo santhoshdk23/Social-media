@@ -61,7 +61,7 @@ function App() {
     const newPost={id,title:postTitle,date,body:postBody};
     try{
     const response=await api.post('/posts',newPost) //new post is saved even if its reloaded
-    const allPosts=[...posts,response.data];
+    const allPosts=[...posts,response.data]  ;
     setPosts(allPosts)
     setPostTitle('')
     setPostBody('')
