@@ -147,6 +147,7 @@ body{
 .postbody{
   margin: 2rem 0;
 }
+ 
 .newpostform{
   display: flex;
   flex-direction: column;

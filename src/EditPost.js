@@ -25,10 +25,12 @@ const EditPost = ({
           required
           value={editTitle}
           onChange={(e)=> setEditTitle(e.target.value)}/>
-        <label htmlFor='postbody'>Title:</label>
+        <label htmlFor='postbody'>Post:</label>
         <textarea
           id='postbody'
           type='text'
+          rows={10}
+          cols={10}
           required
           value={editBody}
           onChange={(e)=> setEditBody(e.target.value)}/>  
